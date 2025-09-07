@@ -36,7 +36,9 @@ git clone https://github.com/souzek-androiddev/ScientificCalculator.git
    ```
    > Replace `App.cpp` with the actual source file name if different.
 
-## 🖼 Screenshots
+## 📸 Screenshots
+
+![alt text](<src/images/Scientific-Calculator Screenshot 2025-09-07 020144>)
 
 > Example CLI interface for the calculator:
 
