@@ -21,7 +21,7 @@ A menu-driven scientific calculator built with C++ for the command line. Support
 
 ### Clone the Repository
 ```sh
-git clone https://github.com/souzekandroiddev/ScientificCalculator.git
+git clone https://github.com/souzek-androiddev/ScientificCalculator.git
 ```
 
 ## 💻 Setup & Run Instructions
