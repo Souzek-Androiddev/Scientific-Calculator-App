@@ -1,55 +1,65 @@
 # Scientific Calculator in C++
 
+## Table of Contents
+- [Overview](#overview)
+- [Tech Stack](#tech-stack)
+- [Getting Started](#getting-started)
+- [Setup & Run Instructions](#setup--run-instructions)
+- [Screenshots](#screenshots)
+- [Approach](#approach)
+- [License](#license)
+- [Author](#author)
+
 ## Overview
+A menu-driven scientific calculator implemented in C++. It supports arithmetic, powers, roots, logarithms, and trigonometric functions, all via a command-line interface. The code is modular, user-friendly, and easy to extend.
 
-This project is a **Scientific Calculator** implemented in C++. It provides a command-line interface to perform various mathematical operations, including basic arithmetic, powers, roots, logarithms, and trigonometric functions. The calculator is menu-driven and user-friendly, making it ideal for learning or simple scientific calculations.
+## Tech Stack
+- **Language:** C++
+- **Platform:** Command Line
+- **Tools:** g++ or any C++ compiler
 
-## Features
+> **Note:** Although you mentioned Java, this project is implemented in C++. If you need a Java version, let me know!
 
-- **Basic Arithmetic:** Addition, Subtraction, Multiplication, Division
-- **Power Function:** Calculate x raised to the power y
-- **Square Root:** Compute the square root of a number
-- **Logarithms:** Base-10 and natural logarithm (ln)
-- **Trigonometry:** Sine, Cosine, and Tangent (input in degrees)
-- **Error Handling:** Checks for invalid input such as division by zero or negative values for square roots/logarithms
+## Getting Started
 
-## Usage
+### Clone the Repository
+```sh
+git clone https://github.com/souzekandroiddev/ScientificCalculator.git
+```
 
-1. **Clone or Download the Repository**
-2. **Compile the Source Code:**
+### Setup & Run Instructions
+
+1. **Navigate to the project directory:**
    ```sh
-   g++ scientific_calculator.cpp -o calc -lm
+   cd ScientificCalculator
    ```
-3. **Run the Calculator:**
+
+2. **Compile the application:**
+   ```sh
+   g++ App.cpp -o calc -lm
+   ```
+   *(If your main file is named differently, adjust the command accordingly)*
+
+3. **Run the application:**
    ```sh
    ./calc
    ```
-4. **Select Operation:** Choose an operation from the menu by entering the corresponding number.
-5. **Input Numbers:** Enter the required numbers as prompted.
-6. **View Result:** The calculator will display the result. You can perform multiple operations until you choose to exit.
 
-## Example
+## Screenshots
 
-```
---- Scientific Calculator ---
-1. Addition
-2. Subtraction
-...
-12. Exit
-Choose an operation (1-12): 1
-Enter first number: 5
-Enter second number: 3
-Result: 8
-```
+> Add screenshots here to showcase the calculator in action.
+>
+> Example:
+>
+> ![Calculator Main Menu](screenshots/main_menu.png)
+> ![Sample Calculation](screenshots/sample_calculation.png)
 
-## Requirements
+## Approach
 
-- C++ compiler (e.g., g++, clang++)
-- Compatible with Linux, macOS, and Windows
-
-## Customization
-
-You can add more functions or improve the UI as needed. The code is modular and easy to extend.
+- **Menu-driven Design:** Users interact via a numbered menu for different operations.
+- **Input Validation:** Handles invalid inputs (e.g., division by zero, negative roots).
+- **Functions:** Each mathematical operation is handled in its own case for clarity and modularity.
+- **Trigonometric Functions:** Angles are input in degrees for user convenience.
 
 ## License
 
