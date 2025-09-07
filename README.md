@@ -1,14 +1,14 @@
 # Scientific Calculator in C++
 
 ## 📑 Table of Contents
-- [Overview](#overview)
+- [📋 Overview](#overview)
 - [🛠 Tech Stack](#-tech-stack)
 - [🚀 Getting Started](#-getting-started)
 - [💻 Setup & Run Instructions](#-setup--run-instructions)
 - [🖼 Screenshots](#-screenshots)
 - [🔍 Approach](#-approach)
 
-## Overview
+## 📋 Overview
 A menu-driven scientific calculator built with C++ for the command line. Supports arithmetic, powers, roots, logarithms, and trigonometric functions with error handling for invalid inputs. Easy to use, compile, and extend for basic scientific calculations.
 
 ## 🛠 Tech Stack
