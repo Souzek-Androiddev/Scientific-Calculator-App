@@ -38,7 +38,7 @@ git clone https://github.com/souzek-androiddev/ScientificCalculator.git
 
 ## 📸 Screenshots
 
-![alt text](<https://github.com/Souzek-Androiddev/Scientific-Calculator-App/edit/main/Scientific-Calculator Screenshot 2025-09-07 020144.png">)
+![alt text](<"https://github.com/Souzek-Androiddev/Scientific-Calculator-App/edit/main/Scientific-Calculator Screenshot 2025-09-07 020144.png">)
 
 Example CLI interface for the calculator:
 
