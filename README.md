@@ -5,7 +5,7 @@
 - [🛠 Tech Stack](#-tech-stack)
 - [🚀 Getting Started](#-getting-started)
 - [💻 Setup & Run Instructions](#-setup--run-instructions)
-- [🖼 Screenshots](#-screenshots)
+- [📸 Screenshots](#-screenshots)
 - [🔍 Approach](#-approach)
 - [👤 Author](#-author)
 
