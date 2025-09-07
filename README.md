@@ -38,7 +38,7 @@ git clone https://github.com/souzek-androiddev/ScientificCalculator.git
 
 ## 📸 Screenshots
 
-![Screenshot of Scientific Calculator running in the terminal, showing square root operation](https://github.com/Souzek-Androiddev/ScientificCalculator/blob/main/Scientific-Calculator Screenshot 2025-09-07 020144.png)
+<img src="https://github.com/Souzek-Androiddev/ScientificCalculator/blob/main/Scientific-Calculator Screenshot 2025-09-07 020144.png">
 
 > Example CLI interface for the calculator:
 
