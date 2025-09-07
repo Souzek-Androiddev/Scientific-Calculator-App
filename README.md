@@ -7,6 +7,7 @@
 - [💻 Setup & Run Instructions](#-setup--run-instructions)
 - [🖼 Screenshots](#-screenshots)
 - [🔍 Approach](#-approach)
+- [👤 Author](#-author)
 
 ## 📋 Overview
 A menu-driven scientific calculator built with C++ for the command line. Supports arithmetic, powers, roots, logarithms, and trigonometric functions with error handling for invalid inputs. Easy to use, compile, and extend for basic scientific calculations.
@@ -60,4 +61,8 @@ Result: 8
 
 ---
 
+## 👤 Author
+
+Abdul Salim Sulemana  
+Developed by [Souzek-Androiddev](https://github.com/Souzek-Androiddev)
 Feel free to customize or extend the calculator for more advanced operations! 😊
