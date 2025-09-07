@@ -1,70 +1,63 @@
 # Scientific Calculator in C++
 
-## Table of Contents
+## 📑 Table of Contents
 - [Overview](#overview)
-- [Tech Stack](#tech-stack)
-- [Getting Started](#getting-started)
-- [Setup & Run Instructions](#setup--run-instructions)
-- [Screenshots](#screenshots)
-- [Approach](#approach)
-- [License](#license)
-- [Author](#author)
+- [🛠 Tech Stack](#-tech-stack)
+- [🚀 Getting Started](#-getting-started)
+- [💻 Setup & Run Instructions](#-setup--run-instructions)
+- [🖼 Screenshots](#-screenshots)
+- [🔍 Approach](#-approach)
 
 ## Overview
-A menu-driven scientific calculator implemented in C++. It supports arithmetic, powers, roots, logarithms, and trigonometric functions, all via a command-line interface. The code is modular, user-friendly, and easy to extend.
+A menu-driven scientific calculator built with C++ for the command line. Supports arithmetic, powers, roots, logarithms, and trigonometric functions with error handling for invalid inputs. Easy to use, compile, and extend for basic scientific calculations.
 
-## Tech Stack
-- **Language:** C++
-- **Platform:** Command Line
-- **Tools:** g++ or any C++ compiler
+## 🛠 Tech Stack
+- **C++**: Main implementation language
+- **Java**: (Example or integration purposes)
+- **Terminal/CLI**: Interface
 
-> **Note:** Although you mentioned Java, this project is implemented in C++. If you need a Java version, let me know!
-
-## Getting Started
+## 🚀 Getting Started
 
 ### Clone the Repository
 ```sh
 git clone https://github.com/souzekandroiddev/ScientificCalculator.git
 ```
 
-### Setup & Run Instructions
+## 💻 Setup & Run Instructions
 
-1. **Navigate to the project directory:**
-   ```sh
-   cd ScientificCalculator
-   ```
-
-2. **Compile the application:**
+1. **Compile the Application**
    ```sh
    g++ App.cpp -o calc -lm
    ```
-   *(If your main file is named differently, adjust the command accordingly)*
-
-3. **Run the application:**
+2. **Run the Calculator**
    ```sh
    ./calc
    ```
+   > Replace `App.cpp` with the actual source file name if different.
 
-## Screenshots
+## 🖼 Screenshots
 
-> Add screenshots here to showcase the calculator in action.
->
-> Example:
->
-> ![Calculator Main Menu](screenshots/main_menu.png)
-> ![Sample Calculation](screenshots/sample_calculation.png)
+> Example CLI interface for the calculator:
 
-## Approach
+```
+--- Scientific Calculator ---
+1. Addition
+2. Subtraction
+...
+12. Exit
+Choose an operation (1-12): 1
+Enter first number: 5
+Enter second number: 3
+Result: 8
+```
 
-- **Menu-driven Design:** Users interact via a numbered menu for different operations.
-- **Input Validation:** Handles invalid inputs (e.g., division by zero, negative roots).
-- **Functions:** Each mathematical operation is handled in its own case for clarity and modularity.
-- **Trigonometric Functions:** Angles are input in degrees for user convenience.
+## 🔍 Approach
 
-## License
+- **Modular Design**: Each operation is implemented as a separate function for maintainability and extensibility.
+- **Menu-driven UI**: User selects operations via a simple numbered menu.
+- **Error Handling**: Checks for invalid inputs and division by zero.
+- **Trigonometry**: Angles entered in degrees, converted internally to radians.
 
-This project is open-source and available under the [MIT License](LICENSE).
+---
 
-## Author
-Abdul Salim Sulemana
-Developed by [Souzek-Androiddev](https://github.com/Souzek-Androiddev)
+Feel free to customize or extend the calculator for more advanced operations! 😊
